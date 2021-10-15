@@ -1,0 +1,35 @@
+Request method:	POST
+*Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "peter@klaven"
+}
+HTTP/1.1 400 Bad Request
+%Date: Fri, 15 Oct 2021 22:35:59 GMT
+/Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+*etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+øReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9xUCqbpUegfGEdvaoV8DtOdmvGVn7ChH2tZSVpLtRV0nDkT5s%2FPO6kdgzKNoIyTj2QPtM7J3DD5lEVPQC9Jc4qO0mEvW2XhokxTs5MRlZLRamQOOHt4U9TK%2FlPM%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 69ec860b5be7277e-GIG
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+     "error": "Missing password"
+}
